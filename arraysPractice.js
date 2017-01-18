@@ -95,16 +95,13 @@ var getRandomArbitrary = function() {
 
 // Your job is to write a function named finder that will get a random number (by invoking getRandomArbitrary), then loop through the array (that will be passed in as a parameter) to see if that random number is in the array. If it is, return true, if it's not, return false
 
-  function finder() {
-
-  }
-
-  //Code Here
-
+function finder() { // create a function called finder
+//get a random number with getRandomArbitrary
+  //loop through the array to see if the random number generated is in the array
+    //if it is, return true.
+    }
 
 //Next problem
-
-
 
 var str = 'this is my sentence';
 //Write a function called reverse that takes a given str as it's only argument and returns that string after it's been reversed
