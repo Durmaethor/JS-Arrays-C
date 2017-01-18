@@ -74,7 +74,7 @@ function divider(numbersArray){
   var both = [evens, odds];
 
   for(var i = 0; i < numbersArray.length; i++) {
-      if(numbersArray[i] % 2 === 0) { 
+      if(numbersArray[i] % 2 === 0) {
       evens.push(numbersArray[i]); }
     else {
         odds.push(numbersArray[i]);
@@ -109,7 +109,9 @@ var getRandomArbitrary = function() {
 var str = 'this is my sentence';
 //Write a function called reverse that takes a given str as it's only argument and returns that string after it's been reversed
 
-  //Code Here
+function reverse(str) {
+  return str.split('').reverse().join('');
+}
 
 
 //Next Problem
@@ -131,7 +133,14 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
   In both the removeItem function and the addItem function, you will also need to check for valid aurguments. Specrunner will try to call your functions without passing in valid aurguments. When this happens, you will need to respond by returning an empty array.
 */
 
-  //Code Here
+function removeItem(myGroceryList, item) {
+
+
+  }
+
+function addItem(myGroceryList, item) {
+
+}
 
 //removeItem(myGroceryList, 'chips') --> ['pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 //addItem(myGroceryList, 'Jerky') --> ['pizza', 'hotpockets', 'MtnDew', 'corndogs', 'Jerky'];
