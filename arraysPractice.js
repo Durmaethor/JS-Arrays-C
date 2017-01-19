@@ -134,8 +134,8 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 function removeItem(myGroceryList, item) {
 
     return myGroceryList;
-  }
-
+    }
+  
 function addItem(myGroceryList, item) {
 
     return myGroceryList;
