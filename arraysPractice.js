@@ -162,7 +162,10 @@ function addItem(myGroceryList, item) {
 
   function maker() {
     var numbers = [];
-
+    for (i = 1; i < 216; i++) {
+        numbers.push(i);
+    }
+    return numbers;
   }
 
 
