@@ -137,9 +137,12 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 
 // USE THE COVERBANDS EXAMPLE!
 function removeItem(myGroceryList, item) {
-    if(myGroceryList.hasOwnProperty(item)) 
-      myGroceryList.splice(item);
+  var i = myGroceryList.indexOf(item);
+    if(i !== -1) {
+      myGroceryList.splice(i, 1);
     }
+    return myGroceryList;
+  }
   
 function addItem(myGroceryList, item) {
 
