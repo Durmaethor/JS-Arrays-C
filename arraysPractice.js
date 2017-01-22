@@ -160,7 +160,14 @@ function addItem(myGroceryList, item) {
 
 //Write a function called maker that creates an array, fills that array with numbers from 1 to 215, then returns the array.
 
-  //Code Here
+//create a function called maker
+function maker() {
+    var numbers = []; //function creates an array
+    for(var i = 1; i <= 215; i++) { //function loops from 1-215
+      numbers.push(i); //pushes the looped numbers into the number array
+    }
+    return numbers; //returns the array
+}
 
 
 
