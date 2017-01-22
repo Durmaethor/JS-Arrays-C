@@ -177,7 +177,13 @@ var numbers = [5, '9', 16, 19, '25', '34', 48];
 //Write a function called addTen that is given 'numbers' as it's only argument and returns a new
 //array after adding ten to each item in numbers. *Verify your answer is correct. --> [15, 19, 26, 29, 35, 44, 58]
 
-  //Code Here
+function addTen(numbers){ //create a function called addTen that passes the parameter numbers
+  //var plusTen = []; //add an array to catch numbers passed through
+  for(var i = 0; i < numbers.length; i++){
+    numbers[i] = Number(numbers[i] + 10;
+  }
+  return numbers;
+}
 
 
 
