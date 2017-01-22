@@ -96,14 +96,14 @@ var numbers = [0,3,4,5,6,7,9,14,17,24,25,26,29,30];
 
 // Your job is to write a function named finder that will get a random number (by invoking getRandomArbitrary), then loop through the array (that will be passed in as a parameter) to see if that random number is in the array. If it is, return true, if it's not, return false
 
-function finder(numbers) { 
- 
+function finder(numbers) {
+
   if(numbers.indexOf(getRandomArbitrary()) !== -1) {
     return true;
-  } 
+  }
   return false;
-} 
-  
+}
+
 
 
 //Next problem
@@ -119,7 +119,7 @@ function reverse(str) {
 //Next Problem
 
 
-var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
+
 /*
   Here we're going to write a function that mimics going shopping and checking things off of our grocery list,
   and adding new items to our list.
@@ -134,8 +134,8 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 
   In both the removeItem function and the addItem function, you will also need to check for valid aurguments. Specrunner will try to call your functions without passing in valid aurguments. When this happens, you will need to respond by returning an empty array.
 */
+var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 
-// USE THE COVERBANDS EXAMPLE!
 function removeItem(myGroceryList, item) {
   var i = myGroceryList.indexOf(item);
     if(i !== -1) {
@@ -143,14 +143,14 @@ function removeItem(myGroceryList, item) {
     }
     return myGroceryList;
   }
-  
-function addItem(myGroceryList, item) {
 
+function addItem(myGroceryList, item) {
+    myGroceryList.push(item);
     return myGroceryList;
 }
 
-//removeItem(myGroceryList, 'chips') --> ['pizza', 'hotpockets', 'MtnDew', 'corndogs'];
-//addItem(myGroceryList, 'Jerky') --> ['pizza', 'hotpockets', 'MtnDew', 'corndogs', 'Jerky'];
+//removeItem(myGroceryList, 'chips'); //--> ['pizza', 'hotpockets', 'MtnDew', 'corndogs'];
+//addItem(myGroceryList, 'Jerky'); //--> ['pizza', 'hotpockets', 'MtnDew', 'corndogs', 'Jerky'];
 
 
 
@@ -168,7 +168,6 @@ function maker() {
     }
     return numbers; //returns the array
 }
-
 
 
 //Next Problem
